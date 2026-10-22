@@ -1,0 +1,45 @@
+nav {
+  color: white;
+  justify-content: center;
+}
+
+a:hover {
+  border-bottom-style: solid;
+  color: red;
+}
+
+
+a {
+  border-bottom: 1px dotted #333;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+.barra-fixed {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    left: 0;
+    padding: 15px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    text-decoration: none;
+}
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
