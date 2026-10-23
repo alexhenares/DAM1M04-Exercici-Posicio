@@ -13,7 +13,6 @@ body {
 
 
 a {
-  border-bottom: 1px dotted #333;
   text-decoration: none;
   margin-right: 10px;
   margin-left: 10px;
@@ -50,6 +49,7 @@ footer {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 footer p {
@@ -171,7 +171,177 @@ footer p {
   padding: 5px 2px;
   border-radius: 10px;
   margin-top: 50px;
-  margin-bottom: 50px;
   text-align: center;
 }
 
+.filtres {
+  text-align: center;
+  margin-bottom: 30px;
+}
+ 
+.filtres span {
+  display: inline-block;
+  background-color: white;
+  color: var(--color-text);
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 4px 12px;
+  margin: 0 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+ 
+.filtres span:hover {
+  background-color: #8b0000;
+  border-color: #8b0000;
+  color: white;
+}
+ 
+.productes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+ 
+.targeta {
+  flex: 1 1 260px;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s;
+}
+ 
+.targeta:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+ 
+
+.imatge {
+  aspect-ratio: 4 / 5;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+}
+ 
+.imatge img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+ 
+.targeta h3 {
+  margin: 15px 15px 5px;
+}
+ 
+.targeta h3 {
+  margin: 15px 15px 5px;
+}
+ 
+.preu {
+  margin: 0 0 15px;
+  font-weight: bold;
+  color: #8b0000;
+}
+ 
+
+ 
+.capcalera-contacte {
+  text-align: center;
+  background-color: #f7f1ef;
+  border-radius: 10px;
+  padding: 40px 20px;
+  margin: 40px 0 30px;
+}
+ 
+.capcalera-contacte h2 {
+  margin: 0 0 10px;
+  font-size: 2.2rem;
+  color: #8b0000;
+}
+ 
+.capcalera-contacte h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  margin: 12px auto 0;
+  background-color: #8b0000;
+  border-radius: 2px;
+}
+ 
+.capcalera-contacte p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+ 
+.contacte {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+ 
+.columna-a,
+.columna-b {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+ 
+.columna-a h3,
+.columna-b h3 {
+  margin-top: 0;
+  color: #8b0000;
+}
+
+.formulari {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+ 
+.nom-camp {
+  margin: 0;
+  font-weight: bold;
+}
+ 
+.camp {
+  height: 42px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+}
+ 
+.camp-gran {
+  height: 140px;
+}
+ 
+.formulari button {
+  align-self: flex-start;
+}
+ 
+.info p {
+  margin: 6px 0;
+}
+ 
+.mapa {
+  height: 220px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+}
