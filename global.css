@@ -332,3 +332,10 @@ footer p {
   align-items: center;
   color: #777;
 }
+
+@media (max-width: 767px) {
+  body{
+    flex-direction: column;
+    align-items: center;
+  }
+}
