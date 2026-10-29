@@ -214,7 +214,6 @@ footer p {
   text-align: center;
   background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: box-shadow 0.2s;
 }
  
 .targeta:hover {
@@ -290,19 +289,7 @@ footer p {
   gap: 30px;
 }
  
-.columna-a,
-.columna-b {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 25px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
- 
-.columna-a h3,
-.columna-b h3 {
-  margin-top: 0;
-  color: #8b0000;
-}
+
 
 .formulari {
   display: flex;
